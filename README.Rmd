@@ -1,0 +1,28 @@
+---
+title: "AutoWaffle 0.1"
+output: github_document
+---
+
+
+## About AutoWaffle
+
+AutoWaffle is an R library that takes away the pain of creating complex plots with waffle and iron. 
+
+## The Problem
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+## The Solution
+
+1. AutoWaffle permits the usage of tables, so that the user does not have to break up their dataframes.
+1. Furthermore, AutoWaffle automatically calculates padding so that all waffle plots are the same size.
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+

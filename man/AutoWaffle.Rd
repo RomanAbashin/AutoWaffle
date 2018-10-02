@@ -1,6 +1,7 @@
 \name{autowaffle}
 \alias{autowaffle}
-%- Also NEED an '\alias' for EACH other topic documented here.
+\alias{waffle}
+\alias{iron}
 \title{
 AutoWaffle 0.1
 }
